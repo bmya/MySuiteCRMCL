@@ -12,6 +12,7 @@ custom/working/*
 custom/modules/*/Ext/
 # Eliminate my own implementations in custom extras
 custom/extras/*
+!custom/extras/tww*
 # Custom configuration should also be ignored.
 /config.php
 # The silent upgrade scripts aren't needed.
