@@ -8,6 +8,8 @@ $hook_array['before_save'] = Array();
 $hook_array['before_save'][] = Array(77, 'updateGeocodeInfo', 'custom/modules/Prospects/ProspectsJjwg_MapsLogicHook.php','ProspectsJjwg_MapsLogicHook', 'updateGeocodeInfo'); 
 $hook_array['after_save'] = Array(); 
 $hook_array['after_save'][] = Array(77, 'updateRelatedMeetingsGeocodeInfo', 'custom/modules/Prospects/ProspectsJjwg_MapsLogicHook.php','ProspectsJjwg_MapsLogicHook', 'updateRelatedMeetingsGeocodeInfo'); 
+$hook_array['after_ui_frame'] = Array(); 
+$hook_array['after_ui_frame'][] = Array(1002, 'Document Templates after_ui_frame Hook', 'custom/modules/Prospects/DHA_DocumentTemplatesHooks.php','DHA_DocumentTemplatesProspectsHook_class', 'after_ui_frame_method'); 
 
 
 

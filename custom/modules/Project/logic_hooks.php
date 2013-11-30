@@ -12,6 +12,8 @@ $hook_array['after_relationship_add'] = Array();
 $hook_array['after_relationship_add'][] = Array(77, 'addRelationship', 'custom/modules/Project/ProjectJjwg_MapsLogicHook.php','ProjectJjwg_MapsLogicHook', 'addRelationship'); 
 $hook_array['after_relationship_delete'] = Array(); 
 $hook_array['after_relationship_delete'][] = Array(77, 'deleteRelationship', 'custom/modules/Project/ProjectJjwg_MapsLogicHook.php','ProjectJjwg_MapsLogicHook', 'deleteRelationship'); 
+$hook_array['after_ui_frame'] = Array(); 
+$hook_array['after_ui_frame'][] = Array(1002, 'Document Templates after_ui_frame Hook', 'custom/modules/Project/DHA_DocumentTemplatesHooks.php','DHA_DocumentTemplatesProjectHook_class', 'after_ui_frame_method'); 
 
 
 

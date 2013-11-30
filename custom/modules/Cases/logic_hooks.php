@@ -19,6 +19,8 @@ $hook_array['after_relationship_add'][] = Array(9, 'Assign account', 'modules/AO
 $hook_array['after_relationship_add'][] = Array(10, 'Send contact case email', 'modules/AOP_Case_Updates/CaseUpdatesHook.php','CaseUpdatesHook', 'creationNotify'); 
 $hook_array['after_relationship_delete'] = Array(); 
 $hook_array['after_relationship_delete'][] = Array(77, 'deleteRelationship', 'custom/modules/Cases/CasesJjwg_MapsLogicHook.php','CasesJjwg_MapsLogicHook', 'deleteRelationship'); 
+$hook_array['after_ui_frame'] = Array(); 
+$hook_array['after_ui_frame'][] = Array(1002, 'Document Templates after_ui_frame Hook', 'custom/modules/Cases/DHA_DocumentTemplatesHooks.php','DHA_DocumentTemplatesCasesHook_class', 'after_ui_frame_method'); 
 
 
 

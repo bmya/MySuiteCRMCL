@@ -1,8 +1,14 @@
-<?PHP
+<?php
+// Do not store anything in this file that is not part of the array or the hook version.  This file will	
+// be automatically rebuilt in the future. 
+ $hook_version = 1; 
+$hook_array = Array(); 
+// position, file, function 
+$hook_array['process_record'] = Array(); 
+$hook_array['process_record'][] = Array(1, 'count', 'modules/Calls_Reschedule/reschedule_count.php','reschedule_count', 'count'); 
+$hook_array['after_ui_frame'] = Array(); 
+$hook_array['after_ui_frame'][] = Array(1002, 'Document Templates after_ui_frame Hook', 'custom/modules/Calls/DHA_DocumentTemplatesHooks.php','DHA_DocumentTemplatesCallsHook_class', 'after_ui_frame_method'); 
 
-$hook_version = 1;
-$hook_array = Array();
 
-$hook_array['process_record'] = Array();
-$hook_array['process_record'][] = Array(1, 'count', 'modules/Calls_Reschedule/reschedule_count.php', 'reschedule_count', 'count');
 
+?>

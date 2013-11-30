@@ -6,6 +6,8 @@ $hook_array = Array();
 // position, file, function 
 $hook_array['after_save'] = Array(); 
 $hook_array['after_save'][] = Array(77, 'updateMeetingGeocodeInfo', 'custom/modules/Meetings/MeetingsJjwg_MapsLogicHook.php','MeetingsJjwg_MapsLogicHook', 'updateMeetingGeocodeInfo'); 
+$hook_array['after_ui_frame'] = Array(); 
+$hook_array['after_ui_frame'][] = Array(1002, 'Document Templates after_ui_frame Hook', 'custom/modules/Meetings/DHA_DocumentTemplatesHooks.php','DHA_DocumentTemplatesMeetingsHook_class', 'after_ui_frame_method'); 
 
 
 
